@@ -186,7 +186,7 @@ app.layout = html.Div(style={'fontFamily': 'Georgia, serif', 'padding': '0', 'ba
     # Header
     html.Div(className='section-padding', style={'backgroundColor': MDIPP_MAROON, 'padding': '40px 20px', 'color': 'white', 'position': 'relative'}, children=[
         html.H1('Baltimore Budget Project', className='header-title', style={'margin': '0', 'textAlign': 'center', 'fontWeight': '700', 'fontSize': '48px', 'letterSpacing': '-1px'}),
-        html.P('FY2026 Budget Simulator', className='header-subtitle', style={'textAlign': 'center', 'fontSize': '20px', 'margin': '10px 0 0 0', 'fontWeight': '300'}),
+        html.P('FY2026 Budget Simulator - Claude was here', className='header-subtitle', style={'textAlign': 'center', 'fontSize': '20px', 'margin': '10px 0 0 0', 'fontWeight': '300'}),
 
         # Reset button - positioned in top right on desktop, centered below on mobile
         html.Button('Reset All',

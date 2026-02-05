@@ -237,7 +237,7 @@ app.layout = html.Div(style={'fontFamily': 'Georgia, serif', 'padding': '0', 'ba
     ]),
 
     # Main Content Container
-    html.Div(className='main-container', style={'maxWidth': '1400px', 'margin': '0 auto', 'padding': '30px 20px'}, children=[
+    html.Div(className='main-container', style={'maxWidth': '1600px', 'margin': '0 auto', 'padding': '30px 15px'}, children=[
 
         # How to Use Section (Collapsible)
         html.Div(className='card-padding', style={'backgroundColor': 'white', 'padding': '30px', 'borderRadius': '2px', 'marginBottom': '30px', 'boxShadow': '0 2px 8px rgba(0,0,0,0.1)', 'borderTop': f'4px solid {MDIPP_ORANGE}'}, children=[
